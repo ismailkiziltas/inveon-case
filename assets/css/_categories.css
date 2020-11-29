@@ -1,0 +1,30 @@
+.categories {
+    width: 240px;
+}
+.categories-title{    
+    padding: 15px;
+}
+.categories-list {
+    border: 1px solid #dddddd;
+}
+.categories-list i{
+    font-size: 20px;
+    display: none;
+}
+.categories-link {
+    color: #000000;
+    padding: 5px 15px;
+}
+
+.categories-item:last-child .categories-link {
+    border-bottom: none;
+}
+
+.categories-link:hover {
+    color: #ff9900;
+}
+
+.categories-link span {
+    font-size: 13px;
+    color: #bebcbc;
+}

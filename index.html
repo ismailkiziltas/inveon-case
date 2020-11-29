@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>INVEON</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="display-flex">
+                <div class="flex-auto">
+                    <button type="button" class="menu-button" id="menu-button">Menü</button>
+                    <nav class="categories">
+                        <ul class="categories-list" data-selector="categories-list">
+                            <li class="categories-title"><strong>Alt Kategoriler</strong></li>
+                            <button type="button" class="close-menu-button" id="close-menu-button">Menüyü Kapat</button>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="flex-fill">
+                    <div class="display-flex flex-right" data-selector="change-grid">
+                        <button type="button" class="view-button active" data-selector="view-button" data-show-columns="3">
+                            <img src="assets/icons/three-grid.svg" width="20">
+                        </button>
+                        <button type="button" class="view-button" data-selector="view-button" data-show-columns="4">
+                            <img src="assets/icons/four-grid.svg" width="20">
+                        </button>
+
+                    </div>
+                    <section class="products"></section>
+
+                    <div class="display-flex flex-center" id="pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

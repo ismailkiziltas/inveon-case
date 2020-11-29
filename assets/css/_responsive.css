@@ -1,0 +1,77 @@
+
+/* FULL HD - DESKTOP */
+@media only screen and (max-width: 1920px) {
+
+}
+
+/* HALF DESKTOP */
+@media only screen and (max-width: 1690px) {
+
+}
+
+/* LAPTOP */
+@media only screen and (max-width: 1400px) {
+
+}
+
+/* Tablet - LG */
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .flex-auto,
+    .flex-fill {
+        flex: 0 0 100%;
+    }
+
+    .categories {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        z-index: 10;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+    }
+
+    body.mobile-categories-active .categories {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .categories-list {
+        border: none;
+    }
+}
+
+/* Tablet - MD*/
+@media only screen and (max-width: 768px) {
+    .product-item {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        text-align: center;
+    }
+
+    .product-price-row {
+        justify-content: center;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 570px) {
+    .product-item {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }   
+}
+
+/* iPhone 5 & 5S */
+@media only screen and (max-width: 320px) {
+
+}

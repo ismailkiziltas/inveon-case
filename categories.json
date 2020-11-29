@@ -1,0 +1,34 @@
+[
+    {
+        "name" : "Pişirme",
+        "count": 583
+    },
+    {
+        "name" : "Sofra, Servis & Sunum",
+        "count": 334
+    },
+    {
+        "name" : "Çay & Kahve Demleme",
+        "count": 129
+    },
+    {
+        "name" : "Yemek Hazırlama",
+        "count": 115
+    },
+    {
+        "name" : "Fırında Pişirme",
+        "count": 35
+    },
+    {
+        "name" : "Çeyiz Setleri",
+        "count": 24
+    },
+    {
+        "name" : "Saklama, Düzenleme",
+        "count": 16
+    },
+    {
+        "name" : "Termoslar",
+        "count": 9
+    }
+]

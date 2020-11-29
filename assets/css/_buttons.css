@@ -1,0 +1,43 @@
+button {
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.view-button{
+    background-color: #ffffff;
+}
+
+.view-button img {
+    filter: grayscale(1);
+}
+
+.view-button.active img {
+    filter: grayscale(0);
+}
+
+.paginate-button {
+    background-color: #EFEFEF;
+    color: #444444;
+}
+
+.paginate-button.active {
+    background-color: #F90;
+    color: #ffffff;
+}
+
+button[class$="menu-button"] {
+    background-color: #F90;
+    color: #ffffff;
+}
+
+.menu-button {
+    margin-bottom: 30px;
+}
+
+.close-menu-button {
+    margin-top: 30px;
+    margin-left: 15px;
+}
